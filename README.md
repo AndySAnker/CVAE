@@ -21,7 +21,7 @@ Follow these step if you want to train DeepStruc and predict with DeepStruc loca
 See the [install](/install) folder. 
 
 ## Simulate data
-See the [data](/data) folder. 
+See the [makeData](/data/makeData) folder. 
 
 ## Train model
 To train your own DeepStruc model simply run:
