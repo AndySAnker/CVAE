@@ -37,5 +37,5 @@ This CVAE does not use graphs as input but simply concatenate the adjacency matr
 The PDF is the Fourier transform of total scattering data, which can be obtained through x-ray, neutron or electron scattering.
 G(r) can be interpreted as a histogram of real-space interatomic distances and the information is equivalent to that of an unassigned distance matrix. <br> 
 A simulated PDF and how we normalise them are shown below:
-![alt text](../img/PDF.png "Simulated PDF")
+![alt text](../../img/PDF.png "Simulated PDF")
 
