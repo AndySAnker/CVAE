@@ -4,16 +4,15 @@
 CVAE is a Conditional Variational Autoencoder which can predict the mono-metallic nanoparticle from a Pair Distribution Function.
 
 1. [DeepStruc](#deepstruc)
-2. [Getting started (with Colab)](#getting-started-with-colab)
-3. [Getting started (own computer)](#getting-started-own-computer)
+2. [Getting started (own computer)](#getting-started-own-computer)
     1. [Install requirements](#install-requirements)
     2. [Simulate data](#simulate-data)
     3. [Train model](#train-model)
     4. [Predict](#predict)
-4. [Author](#author)
-5. [Cite](#cite)
-6. [Acknowledgments](#Acknowledgments)
-7. [License](#license)  
+3. [Author](#author)
+4. [Cite](#cite)
+5. [Acknowledgments](#Acknowledgments)
+6. [License](#license)  
 
 # Getting started (own computer)
 Follow these step if you want to train DeepStruc and predict with DeepStruc locally on your own computer.
