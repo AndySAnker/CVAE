@@ -3,7 +3,7 @@
 # CVAE 
 CVAE is a Conditional Variational Autoencoder which can predict the mono-metallic nanoparticle from a Pair Distribution Function.
 
-1. [DeepStruc](#deepstruc)
+1. [CVAE](#cvae)
 2. [Getting started (own computer)](#getting-started-own-computer)
     1. [Install requirements](#install-requirements)
     2. [Simulate data](#simulate-data)
