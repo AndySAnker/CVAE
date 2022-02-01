@@ -3,11 +3,11 @@
 # Data introduction
   
 
-1. [Generate data](#generate-data)
-    1. [Generate data arguments](#generate-data-arguments)
-2. [Generel data structure](#generel-data-structure)
+1. [Generate XYZ files](#generate-xyz-files)
+2. [Generate data arguments](#generate-graphinspired-tabular-data)
+3. [Generel data structure](#generel-data-structure)
     1. [Mono-Metallic Nanoparticles (MMNPs)](#mono-metallic-nanoparticles-mmnps)
-    2. [Graph representation](#graph-representation)
+    2. [Generate graph-inspired tabular representation](#generate-graph-inspired-tabular-representation)
     3. [Pair Distribution Function (PDF)](#pair-distribution-function-pdf)
 
 # Generate XYZ files
@@ -28,7 +28,7 @@ Atom<sub>2</sub> &nbsp; &nbsp; x<sub>2</sub> &nbsp; &nbsp; y<sub>2</sub> &nbsp; 
 ...  
 Atom<sub>N</sub> &nbsp; &nbsp; x<sub>N</sub> &nbsp; &nbsp; y<sub>N</sub> &nbsp; &nbsp; z<sub>N</sub> <br>
 
-## Graph representation
+## Generate graph-inspired tabular representation
 Each structure in graph representation can be described as, G = (X,A), where X ∈ R<sup>N×F</sup> is the node feature matrix which contains F features that can describe each of the N atoms in the structure. We use F = 3 comprising only the Euclidean coordinates of the atom in a 3-dimensional space. The interatomic relationships are captured using the adjacency matrix A ∈ R<sup>N×N</sup>. In our case, the entries of the adjacency matrix are the Euclidean distance between pairs of atoms resulting in a soft adjacency matrix. However, when the distance between any pair of nodes is larger than the lattice constant the corresponding edge weight is set to zero. 
 
 This CVAE does not use graphs as input but simply concatenate the adjacency matrix to the XYZ coordinates as input to the CVAE. For a graph-based CVAE visit  [DeepStruc](https://github.com/EmilSkaaning/DeepStruc.git).
