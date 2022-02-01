@@ -15,8 +15,7 @@
 please use the [Ubuntu subsystem](https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview). To generate more data run the simPDF_xyz.py script. 
 
 # Generate graph-inspired tabular data 
-To generate graph-inspired tabular data run the simPDF_xyz.py script. 
-
+To generate graph-inspired tabular data run the graph_maker.py script. 
   
 # Generel data structure
 A simplified description is shown below. For detailed description of the data format please revisit the paper.
@@ -30,9 +29,9 @@ Atom<sub>2</sub> &nbsp; &nbsp; x<sub>2</sub> &nbsp; &nbsp; y<sub>2</sub> &nbsp; 
 Atom<sub>N</sub> &nbsp; &nbsp; x<sub>N</sub> &nbsp; &nbsp; y<sub>N</sub> &nbsp; &nbsp; z<sub>N</sub> <br>
 
 ## Graph representation
-Each structure in graph representation can be described as, G = (X,A), where X ∈ RN×F is the node feature matrix which contains F features that can describe each of the N atoms in the structure. We use F = 3 comprising only the Euclidean coordinates of the atom in a 3-dimensional space. The interatomic relationships are captured using the adjacency matrix A ∈ RN×N. In our case, the entries of the adjacency matrix are the Euclidean distance between pairs of atoms resulting in a soft adjacency matrix. However, when the distance between any pair of nodes is larger than the lattice constant the corresponding edge weight is set to zero. 
+Each structure in graph representation can be described as, G = (X,A), where X ∈ R<sup>N×F</sup> is the node feature matrix which contains F features that can describe each of the N atoms in the structure. We use F = 3 comprising only the Euclidean coordinates of the atom in a 3-dimensional space. The interatomic relationships are captured using the adjacency matrix A ∈ R<sup>N×N</sup>. In our case, the entries of the adjacency matrix are the Euclidean distance between pairs of atoms resulting in a soft adjacency matrix. However, when the distance between any pair of nodes is larger than the lattice constant the corresponding edge weight is set to zero. 
 
-This CVAE does not use graphs as input but simply concatenate the adjacency matrix to the XYZ coordinates as input to the CVAE. For a graph-based CVAE visit DeepStruc LINK.
+This CVAE does not use graphs as input but simply concatenate the adjacency matrix to the XYZ coordinates as input to the CVAE. For a graph-based CVAE visit  [DeepStruc](https://github.com/EmilSkaaning/DeepStruc.git).
 
 ## Pair Distribution Function (PDF)
 The PDF is the Fourier transform of total scattering data, which can be obtained through x-ray, neutron or electron scattering.
