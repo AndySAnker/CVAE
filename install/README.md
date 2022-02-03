@@ -1,7 +1,7 @@
 # Install
 
 To run CVAE you will need some packages, which are dependent on your computers specifications. 
-This includes [PyTorch](https://pytorch.org/) and [PyTorch-Geometric](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html).
+This includes [PyTorch](https://pytorch.org/).
 
 All other packages can be install through the requirement files or the install.sh file. 
 First go to your desired conda environment.
