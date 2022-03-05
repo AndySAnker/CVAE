@@ -15,7 +15,7 @@ CVAE is a Conditional Variational Autoencoder which can predict the mono-metalli
 6. [License](#license)  
 
 # Getting started (own computer)
-Follow these step if you want to train DeepStruc and predict with DeepStruc locally on your own computer.
+Follow these step if you want to train the CVAE and predict with the model locally on your own computer.
 
 ## Install requirements
 See the [install](/install) folder. 
@@ -24,7 +24,7 @@ See the [install](/install) folder.
 See the [makeData](/data/makeData) folder. 
 
 ## Train model
-To train your own DeepStruc model simply run:
+To train your own CVAE model simply run:
 ```
 python train.py
 ```
