@@ -1,3 +1,5 @@
+[ChemRxiv](https://chemrxiv.org/engage/chemrxiv/article-details/6221f17357a9d20c9a729ecb)  |  [Paper] XXX
+
 # Install
 
 To run CVAE you will need some packages, which are dependent on your computers specifications. 
