@@ -1,5 +1,4 @@
-[ChemRxiv](https://chemrxiv.org/engage/chemrxiv/article-details/6221f17357a9d20c9a729ecb)  |  [Paper] XXX
-
+[ChemRxiv](https://chemrxiv.org/engage/chemrxiv/article-details/6221f17357a9d20c9a729ecb)  |  [Paper](https://pubs.rsc.org/en/content/articlelanding/2023/dd/d2dd00086e)
 # CVAE 
 CVAE is a Conditional Variational Autoencoder which can predict the mono-metallic nanoparticle from a Pair Distribution Function.
 
